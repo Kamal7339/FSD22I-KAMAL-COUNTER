@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Outfit:wght@300;400;500&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+  }
+  h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    row-gap: 30px;
+    color: red;
+    
+  }
+  #value{
+    font-size: 100px;
+    row-gap: 30px;
+  }
+  
+  .btn-container{
+    word-spacing: 10px;
+    transition-duration: 0.4s;
+   
+    
+  }
+  .btn-container .btn.increase{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: medium;
+    color: rgb(254, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .btn-container .btn.reset{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: medium;
+    color: rgb(254, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .btn-container .btn.decrease{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: medium;
+    color: rgb(254, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+ .btn.increase:hover{
+  background:blueviolet;
+
+ }
+ .btn.decrease:hover{
+  background: blueviolet;
+ }
+ .btn.reset:hover{
+  background: blueviolet;
+ }
